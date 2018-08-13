@@ -1,0 +1,19 @@
+Create a Unity build project 
+	1. Assets/scenes/main.unity
+	2. Build project: file -> build settings -> Windows Store, XAML, C# Debugging
+
+
+Load Project into Visual Studio
+	1. In build folder, open .sln file
+	2. Change Debug -> Release x86
+	3. Run on Remote Machine
+	4. F5 -> Run without Debugging
+
+
+Transmit it to HoloLens
+	1. Find pin in Hololens Developer Settings
+	
+
+Start ROS Transmission Node	
+	1. Display calibration image on baxter display: baxter_examples xdislpay_image hiro.jpg
+	2. Run ROS node send_to_hololens
